@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.main-back {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/monthly-emojis-bg.png');
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-back-box {
+  height: 350px;
+  width: 312px;
+  border: 0.1px solid #757475;
+  box-shadow: #131212;
+  border-radius: 27.29px;
+  background-image: linear-gradient(
+    to left,
+    #a7a6a8 40%,
+    (#131212 28%, #353333) 5%
+  );
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-back-box-h1 {
+  width: 227px;
+  height: 48px;
+  top: 128px;
+  left: 66px;
+  font-size: 24px;
+}
+
+.main-back-box-label {
+  font-size: 10px;
+}
+
+.main-back-box-input {
+  border: 0.5px solid #ffffff;
+  border-radius: 50px;
+  background-color: transparent;
+  padding: 10px;
+  margin: 5px;
+  color: #ffffff;
+  height: 40px;
+  width: 280px;
+}
+
+.main-back-box-showpassword {
+  font-size: 12px;
+  font-family: 'HK Grotesk';
+  color: #a7a6a8;
+  padding: 2px;
+}
+
+.main-back-box-login {
+  background-color: #ffbe38;
+  color: #000000;
+  border: 0.1px solid #ffbe38;
+  border-radius: 8px;
+  height: 40px;
+  width: 280px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.main-back-box-errorMessage {
+  color: red;
+  font-size: 12px;
+  margin-top: 10px;
+}

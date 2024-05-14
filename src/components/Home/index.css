@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+}
+
+.home-nav {
+  height: 57px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  background-color: #42404d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.home-nav-h1 {
+  color: #ffbe38;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.home-nav-div {
+  width: 366px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home-body-div-2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-nav-Link {
+  text-decoration: none;
+}
+
+.home-nav-button {
+  color: #ffbe38;
+  border: 1px solid #ffbe38;
+  background-color: transparent;
+  border-radius: 13px;
+  padding: 4px 26px 4px 26px;
+}
+
+.main-back {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/monthly-emojis-bg.png');
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.home-body-h1 {
+  color: #ffbe38;
+}
+
+.home-emojis-div {
+  height: 200px;
+  width: 487px;
+  border-radius: 27px;
+  border: 2px;
+  background-color: rgba(90, 86, 86, 0.28);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.home-emojis-ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px; /* Add gap between emojis */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.home-filters-div {
+  height: 200px;
+  width: 487px;
+  border-radius: 27px;
+  border: 2px;
+  background-color: rgba(90, 86, 86, 0.28);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-filters-div-inner {
+  width: 470px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.home-body-div {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.home-Calender-div {
+  height: 509px;
+  width: 797px;
+  border-radius: 27px;
+  border: 2px;
+  margin-right: 20px;
+  background-color: rgba(90, 86, 86, 0.28);
+}
+
+.active {
+  width: 56px;
+  height: 56px;
+
+  border-radius: 50%; /* Make the element circular */
+  box-shadow:
+    0 -3px 24px 0 rgba(255, 255, 255, 0.21),
+    0 2px 8px 0 rgba(247, 247, 247, 0.07);
+}
+
+.notactive {
+  width: 32px;
+  height: 32px;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Adjust spacing between elements */
+  align-items: center; /* Align elements vertically */
+  flex-wrap: wrap; /* Allow elements to wrap to the next line if necessary */
+}
+
+.home-emojis-div,
+.home-filters-div {
+  flex: 1; /* Each div takes equal space */
+  margin-right: 10px; /* Adjust spacing between divs */
+}
+
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+}
+
+.days-header {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-top: 30px;
+  gap: 5px; /* Add gap between day headers */
+}
+
+.day {
+  text-align: center;
+}
+
+.dates-grid {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.dates-grid-li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; /* Align content horizontally */
+  background-color: #343243;
+  text-align: center;
+  border-radius: 10px;
+  height: 40px; /* Adjust height as needed */
+}
+
+.date-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 78px;
+}
+
+.date-btn p {
+  margin: 0;
+}
+
+.date-btn img {
+  height: 24px;
+  width: 24px;
+}
+.home-calender-heading-div {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.home-body-div-h1 {
+  color: #ffbe38;
+  font-size: 36px;
+  text-align: center;
+}
+
+.home-filters-div-ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.home-filters-div-ul li {
+  margin-right: 10px;
+}
+
+.home-filters-select {
+  height: 45px;
+  width: 170px;
+  border-radius: 8px;
+  border: 1px;
+  padding: 9px 13px;
+  background-color: #42404d;
+  box-sizing: border-box;
+  color: white; /* Text color for unselected options */
+}
+
+/* Style for selected option */
+.home-filters-select option:checked {
+  color: #ffbe38; /* Yellow background color for selected option */
+}

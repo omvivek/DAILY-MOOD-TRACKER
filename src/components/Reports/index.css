@@ -1,0 +1,68 @@
+.reports-div {
+  background-color: black;
+}
+
+.main-back {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/monthly-emojis-bg.png');
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+.main-back-li {
+  height: 254px; /* Hug (254px) */
+  width: 249.6px; /* Fill (249.6px) */
+  border-radius: 27.29px; /* Radius 27.29px */
+  padding: 30px 80px; /* Padding 30px, 80px, 30px, 80px */
+  margin-bottom: 24px; /* Gap 24px */
+
+  /* Additional styles */
+  background-color: rgba(90, 86, 86, 0.28);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  /* Enable horizontal scrolling */
+}
+
+.main-back-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.main-back-p {
+  font-size: 24px;
+  text-align: left;
+}
+
+.main-second-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 85vw;
+}
+.main-back-select {
+  width: 96px;
+  height: 32px;
+  border-radius: 9px;
+  padding: 4px 12px;
+  font-size: 13px;
+  gap: 4px;
+  color: #64748b;
+}
+
+.active {
+  width: 56px;
+  height: 56px;
+
+  border-radius: 50%; /* Make the element circular */
+  box-shadow:
+    0 -3px 24px 0 rgba(255, 255, 255, 0.21),
+    0 2px 8px 0 rgba(247, 247, 247, 0.07);
+}
+
+.notactive {
+  width: 32px;
+  height: 32px;
+}
